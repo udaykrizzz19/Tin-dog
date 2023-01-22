@@ -1,0 +1,213 @@
+body
+{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}    
+p
+{
+	color: grey;
+}
+
+#title
+{
+
+    color: white;
+    text-align: left;
+}
+
+.container-fluid
+{
+    padding: 3% 15%;
+}
+.main-heading
+{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+	font-size: 1.2rem;
+	font-family: Ubuntu;
+}
+
+/* section colors */
+
+.colored-section
+{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.white-section
+{
+    background-color: white;
+}
+
+/* Download Buttons */
+
+.Download-button
+{
+	margin: 5% 3% 5% 0;
+}
+
+/* Image Change */
+
+.Image-1
+{
+	width: 60%;
+	transform: rotate(25deg);
+}
+
+/* Features */
+
+#features
+{
+	padding: 7% 15% ;
+}
+
+.features-1
+{
+	padding: 4.5%;
+}
+
+
+.icon
+{
+	color: #ef8172;
+	padding-bottom: 16px;
+}
+
+/* Testimonials Section */
+
+#testimonials
+{
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.testimonials-image
+{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.press-img
+{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+/* pricing scetion */
+
+#pricing
+{
+    padding: 100px;
+}
+
+.price-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-columns 
+{
+    padding: 4% 2%;
+}
+
+@media (max-width:1024px) {
+
+    #title
+    {
+        text-align: center;
+    }
+    .Image-1
+    {
+        position: static;
+        transform: rotate(0);
+    }
+} 
+
+/* call in action */
+
+#cta
+{
+  text-align: center;
+    padding: 7% 15%;
+    color: #FFF; 
+    text-align: center;
+}
+
+.action-text
+{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    line-height: 2;
+}
+
+.btn12
+{
+    margin: 16px;
+}
+
+
+/* footer */
+#footer
+{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.btn112
+{
+    margin: 20px 10px;
+    padding-bottom: 5px;
+}
